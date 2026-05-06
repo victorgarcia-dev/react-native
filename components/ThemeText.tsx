@@ -16,7 +16,7 @@ const ThemeText = ({ children, variant = "h1" }: Props) => {
         variant === "h2" && globalStyles.subResult,
       ]}
     >
-      {children}
+      {String(children)}
     </Text>
   );
 };

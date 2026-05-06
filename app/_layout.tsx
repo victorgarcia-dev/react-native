@@ -5,8 +5,10 @@ import { StatusBar, View } from "react-native";
 const RootLayout = () => {
   return (
     <View style={globalStyles.background}>
-      <Slot /> //le dice que todo lo que este fuera del archivo layout es hij0
-      <StatusBar /> //muestra los iconos de la app : red wifi, bateria, hora
+      <Slot />
+      {/* le dice que todo lo que este fuera del archivo layout es hijo */}
+      <StatusBar />
+      {/* muestra los iconos de la app */}
     </View>
   );
 };
